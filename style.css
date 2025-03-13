@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Share Tech Mono", monospace;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D9E8FE;
+}
+
+main {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.heading {
+    color: darkblue;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.clock {
+    height: 150px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #429AFF;
+    color: white;
+    font-size: 24px;
+}
+
+.stop-watch {
+    height: 150px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #429AFF;
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+.stop-clock {
+    display: flex;
+
+}
+
+#stop-line-break {
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    margin: 10px 0;
+}
+
+.controls button {
+    padding: 10px 15px;
+    border: none;
+    /* font-weight: bold; */
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+    border: 5px;
+    transition: 0.2s ease-in-out; 
+}
+
+.controls button:hover {
+    opacity: 0.8;
+}
+
+#start-btn {
+    background-color: #276397;
+}
+
+#stop-btn {
+    background-color: #D33938;
+}
+
+#reset-btn {
+    background-color: #27B584;
+}
+
+.time-elem {
+    padding: 5px;
+}
+
+.controls {
+    text-align: center;
+}

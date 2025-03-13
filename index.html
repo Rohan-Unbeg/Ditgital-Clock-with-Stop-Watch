@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Digital Clock</title>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+
+            <h1 class="heading">Digital Clock</h1>
+            <div class="clock">
+
+                <h1 id="hr" class="time-elem"></h1>
+                <h1 id="min" class="time-elem"></h1>
+                <h1 id="sec" class="time-elem"></h1>
+
+            </div>
+        </div>
+
+        <div class="container">
+
+            <h1 class="heading">Stop Watch</h1>
+            <div class="stop-watch">
+                <div class="stop-clock">
+                    <h1 id="stop-hr" class="time-elem"></h1>
+                    <h1 id="stop-min" class="time-elem"></h1>
+                    <h1 id="stop-sec" class="time-elem"></h1>
+                    <h1 id="stop-mili-sec" class="time-elem"></h1>
+                </div>
+                <hr id="stop-line-break">
+                <div class="controls">
+                    <button onclick="startWatch()" id="start-btn">Start</button>
+                    <button onclick="stop()" id="stop-btn">Stop </button>
+                    <button onclick="reset()" id="reset-btn">Reset </button>
+                </div>
+            </div>
+
+        </div>
+        <script src="main.js"></script>
+    </main>
+
+</body>
+
+</html>
